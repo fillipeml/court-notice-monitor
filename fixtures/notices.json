@@ -1,0 +1,124 @@
+[
+  {
+    "numeroComunicacao": "DEMO-0001",
+    "numeroProcesso": "0000100-45.2026.8.26.0001",
+    "tipoComunicacao": "CITACAO",
+    "status": "EM_CURSO",
+    "dataComunicacao": "2026-09-22T09:00:00",
+    "dataFinalCiencia": "2026-09-25",
+    "tribunalOrigem": "TJ-EX",
+    "varaJudicial": "1a Vara Civel de Vila Modelo",
+    "urgente": "S",
+    "autoresReclamantes": [
+      {
+        "nome": "ALFA LTDA."
+      }
+    ],
+    "reus": [
+      {
+        "nome": "DEMO COMPANY LTDA"
+      }
+    ],
+    "nomeDestinatario": "DEMO COMPANY LTDA"
+  },
+  {
+    "numeroComunicacao": "DEMO-0002",
+    "numeroProcesso": "0000101-30.2026.8.26.0001",
+    "tipoComunicacao": "CITACAO",
+    "status": "EM_CURSO",
+    "dataComunicacao": "2026-09-22T10:30:00",
+    "dataFinalCiencia": "2026-10-02",
+    "tribunalOrigem": "TJ-EX",
+    "varaJudicial": "2a Vara Civel de Vila Modelo",
+    "urgente": "N",
+    "autoresReclamantes": [
+      {
+        "nome": "BETO SILVA"
+      }
+    ],
+    "reus": [
+      {
+        "nome": "DEMO COMPANY LTDA"
+      }
+    ],
+    "nomeDestinatario": "DEMO COMPANY LTDA"
+  },
+  {
+    "numeroComunicacao": "DEMO-0003",
+    "numeroProcesso": "0000102-15.2026.8.26.0001",
+    "tipoComunicacao": "NOTIFICACAO",
+    "status": "EM_CURSO",
+    "dataComunicacao": "2026-09-23T08:15:00",
+    "dataFinalCiencia": null,
+    "tribunalOrigem": "TRT-EX",
+    "varaJudicial": "3a Vara do Trabalho de Vila Modelo",
+    "urgente": "N",
+    "autoresReclamantes": [
+      "CARLA SOUZA"
+    ],
+    "reus": [
+      {
+        "nome": "DEMO COMPANY LTDA"
+      }
+    ],
+    "nomeDestinatario": "DEMO COMPANY LTDA"
+  },
+  {
+    "numeroComunicacao": "DEMO-0004",
+    "numeroProcesso": "0000103-97.2026.8.26.0001",
+    "tipoComunicacao": "INTIMACAO",
+    "status": "EM_CURSO",
+    "dataComunicacao": "2026-09-23T11:00:00",
+    "dataFinalCiencia": "2026-09-30",
+    "tribunalOrigem": "TJ-EX",
+    "varaJudicial": "1a Vara Civel de Vila Modelo",
+    "urgente": "N",
+    "autoresReclamantes": [
+      {
+        "nome": "GAMA EDUCACAO S.A."
+      }
+    ],
+    "reus": [
+      {
+        "nome": "DEMO COMPANY LTDA"
+      }
+    ],
+    "nomeDestinatario": "DEMO COMPANY LTDA"
+  },
+  {
+    "numeroComunicacao": "DEMO-0005",
+    "numeroProcesso": "0000104-82.2026.8.26.0001",
+    "tipoComunicacao": "VISTA",
+    "status": "EM_CURSO",
+    "dataComunicacao": "2026-09-23T14:45:00",
+    "dataFinalCiencia": null,
+    "tribunalOrigem": "TJ-EX",
+    "varaJudicial": "4a Vara Civel de Vila Modelo",
+    "urgente": "N",
+    "autoresReclamantes": [],
+    "reus": [],
+    "nomeDestinatario": "DEMO COMPANY LTDA"
+  },
+  {
+    "numeroComunicacao": "DEMO-0006",
+    "numeroProcesso": "0000105-67.2026.8.26.0001",
+    "tipoComunicacao": "EDITAL",
+    "status": "EM_CURSO",
+    "dataComunicacao": "2026-09-24T07:50:00",
+    "dataFinalCiencia": "2026-10-10",
+    "tribunalOrigem": "TJ-EX",
+    "varaJudicial": "1a Vara Civel de Vila Modelo",
+    "urgente": "N",
+    "autoresReclamantes": [
+      {
+        "nome": "DELTA EMPREENDIMENTOS LTDA"
+      }
+    ],
+    "reus": [
+      {
+        "nome": "DEMO COMPANY LTDA"
+      }
+    ],
+    "nomeDestinatario": "DEMO COMPANY LTDA"
+  }
+]
