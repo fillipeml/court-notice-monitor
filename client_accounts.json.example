@@ -1,0 +1,8 @@
+[
+  {
+    "name": "ALFA LTDA.",
+    "client_id": "FILL IN (issued in the PDPJ client-management portal with the client's company profile)",
+    "client_secret": "FILL IN",
+    "tenant_id": ""
+  }
+]
