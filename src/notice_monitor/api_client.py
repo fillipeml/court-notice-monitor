@@ -123,6 +123,11 @@ class NoticeApiClient:
             if isinstance(body, list):
                 yield from body
                 return
+            if body is None:
+                # A 200 with an empty body. Without this the next line raises
+                # AttributeError, which escapes the per-inbox isolation in sweep.run and
+                # takes the whole sweep down instead of failing one inbox and alerting.
+                raise ApiError("the gateway answered 200 with an empty body")
             items = body.get("data") or []
             yield from items
             info = body.get("page") or {}
