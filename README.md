@@ -71,7 +71,7 @@ The API client authenticates with OAuth2 client credentials against the platform
 
 ## Evaluation
 
-There is no model in this system; every decision is a rule, and the rules are the test suite. The triage table has one test per type, including unknown, empty and `None`. The sweep is tested end to end on six synthetic communications: three automated, three human, one urgent, one without a deadline, one of an unknown type. The second run of the same sweep must find nothing new.
+There is no model in this system; every decision is a rule, and the rules are the test suite. The triage table has one test per type, including unknown, empty and `None`. The sweep is tested end to end on six synthetic communications: three automated, three human, one urgent, two without a deadline, one of an unknown type. The second run of the same sweep must find nothing new.
 
 ## Cost & latency
 

@@ -46,6 +46,9 @@ jobs:
           EMAIL_RECIPIENTS: team@example.com
         run: |
           uv run notice-monitor
+          # Twice, which is what the README says this step proves: the second sweep must
+          # find nothing new. It only ran once.
+          uv run notice-monitor
           uv run notice-monitor --health
           ls .demo/outbox
 
