@@ -97,7 +97,7 @@ def main(argv: list[str] | None = None) -> int:
 
     if not config.demo_mode:
         config.require_credentials()
-    if args.window_days:
+    if args.window_days is not None:
         config.window_days = args.window_days
 
     mode = "DEMO" if config.demo_mode else config.environment
@@ -118,7 +118,7 @@ def main(argv: list[str] | None = None) -> int:
                 return 3
             print(json.dumps(profile, indent=2, ensure_ascii=False))
             return 0
-        if args.sample:
+        if args.sample is not None:
             target = sample(config, args.sample, factory.build_client(config))
             print(f"Sample saved to {target} (outside version control).")
             return 0
